@@ -1,8 +1,9 @@
 let counter = 0;
+let number = 13;
 
-for(let i=0; i<=n-1; i++)
+for(let i=1; i<=number; i++)
 {
-    if(num % i == 0)
+    if(number % i == 0)
 	{
 	    counter++;	
 	}

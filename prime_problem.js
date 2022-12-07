@@ -1,14 +1,15 @@
-let counter = 0;
+let factor = 0;
+let num = 13;
 
-for(let i=0; i<=n-1; i++)
+for(let i=1; i<=num; i++)
 {
     if(num % i == 0)
 	{
-	    counter++;	
+	    factor++;	
 	}
 }
 
-if(counter == 2)
+if(factor == 2)
 {
     console.log("Yes");	
 }
